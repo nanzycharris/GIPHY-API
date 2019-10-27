@@ -26,7 +26,7 @@ $(document).ready(function () {
         // Create variable that grabs $(this).attr('data-name')
         var type = $(this).attr("data-type");
         // Create variable for query url
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=1hdfqbCgYYcCQ61lluq8Hi9gwoTbQofJ&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=1hdfqbCgYYcCQ61lluq8Hi9gwoTbQofJ&limit=10";
         // Make ajax call
         // URL
         // GET method
