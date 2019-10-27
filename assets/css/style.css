@@ -13,7 +13,6 @@ body {
 
 .jumbotron {
   margin: 10%;
-  margin-left:12%;
   margin-top: 2%;
   width: 85%;
   height: 22%;
@@ -38,18 +37,18 @@ p {
 
 .row {
   float: right;
-  margin-right: 3%;
+  margin-right: 5%;
 }
+
 #sitcom-buttons {
   margin-top: -100px;
   margin-right: 5%;
-  margin-left: 13%;
+  margin-left: 11%;
   align-items: center;
 }
 
 #sitcoms {
   width: 90%;
-
 }
 
 .sitcom-item {
@@ -59,7 +58,7 @@ p {
 
 form {
   float: right;
-  margin-right: 2%;
+  margin-right: 4%;
   width: 30%;
   padding: 20px;
 }
