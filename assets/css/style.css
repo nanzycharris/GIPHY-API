@@ -1,0 +1,110 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/whitediamond_@2X.png);
+    padding: 0;
+    margin: 0;
+    /*justify-content: center;
+    align-items: center; */
+    width: 1280px;
+    height: 800px;
+}
+
+.jumbotron {
+  margin: 10%;
+  margin-top: 2%;
+  width: 85%;
+  height: 22%;
+  align-items: center;
+  background-color: rgb(237, 245, 133);
+}
+
+h1{ 
+  text-align: center;
+  margin-top: -40px;
+  color: rgb(4, 88, 109);
+}
+
+p {
+  color: rgb(6, 104, 50);
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 26px;
+}
+
+#sitcom-buttons {
+  margin-top: -100px;
+  margin-right: 5%;
+  margin-left: 11%;
+  align-items: center;
+}
+
+#sitcoms {
+  width: 90%;
+
+}
+
+.sitcom-item {
+  float: right;
+  padding: 10px;
+}
+
+form {
+  float: right;
+  width: 30%;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: rgb(4, 88, 109);
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: coral;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #07ccc5;
+}
+
+button.active {
+  background: #07ccc5;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    .container {
+      height: 100%;
+    }
+}
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) { 
+    .container {
+      height: 100%;
+    }
+}
