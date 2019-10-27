@@ -8,4 +8,4 @@ Instructions:
 Click on the button of your prefered tv show and reminisce on its key comedical moments encapsulated in a Gif, or add a new title to the list by typing the name of your favorite sitcom.
 To animate the image, click on it.
 
-https://github.com/nanzycharris/GIPHY-API
+https://nanzycharris.github.io/GIPHY-API/
