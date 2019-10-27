@@ -22,7 +22,7 @@ body {
 
 h1{ 
   text-align: center;
-  margin-left: 15%;
+  margin-left: 14%;
   margin-top: -40px;
   color: rgb(4, 88, 109);
 }
@@ -43,7 +43,7 @@ p {
 #sitcom-buttons {
   margin-top: -100px;
   margin-right: 5%;
-  margin-left: 11%;
+  margin-left: 10%;
   align-items: center;
 }
 
